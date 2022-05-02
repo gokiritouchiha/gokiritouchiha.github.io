@@ -1,0 +1,113 @@
+.titulo{
+    text-align: center;
+    background-color: rgba(135, 161, 233, 0.452);
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.596);
+    width: 750px;
+}
+
+body{
+    background-color: rgb(206, 171, 124);
+    background-image: url("https://fondosmil.com/fondo/85559.jpg");
+    background-repeat:repeat-y;
+    background-position: center;
+    background-size: 100%;
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.menu{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 45px;
+    color: rgba(22, 41, 216, 0.678);
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: rgba(77, 139, 136, 0.568);
+    color: rgb(0, 0, 0);
+}
+
+.contorno{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    color: #fff;
+    text-shadow: -2px 0 rgb(111, 182, 52), 0 2px rgb(93, 119, 76), 1px 0 rgb(180, 243, 122), 0 -2px rgba(185, 230, 155, 0.808);
+}
+
+.video{
+    text-align: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+main{
+    width: 500;
+    height: 350px;
+    background-color:rgba(60, 125, 190, 0.596) ;
+}
+
+.image{
+    width: 300px;
+    height: 250px;
+    background-repeat:repeat-y;
+    margin: 35px;
+    margin-top: 5px;
+}
+
+.primario{
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 15px;
+    margin-top: 30px;
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+
+.izquierda{
+    background-color: rgba(127, 255, 212, 0.185);
+    float: left;
+    width: 375px;
+    height: 350px;
+}
+
+.derecha{
+    background-color: rgba(143, 188, 143, 0.274);
+    float: left;
+    width: 375px;
+    height: 350px;
+}
+
+
+.derecha li{
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.nombres{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+footer{
+    background-color: rgba(32, 178, 171, 0.26);
+    height: 50px;
+    margin-top: -10px;
+}
+
+
