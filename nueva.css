@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://www.teahub.io/photos/full/347-3473305_bandera-francia-wallpaper-france-flag-background.jpg");
+    background-color: rgba(70, 146, 142, 0.815);
 }
 
 .menu{
@@ -72,6 +72,4 @@ img:hover{
 
 .titulo{
     text-align: center;
-    color: aliceblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

@@ -21,28 +21,6 @@ body{
     margin-top: 10px;
 }
 
-.menu{
-    text-align: center;
-    font-size: 20px;
-    margin-top: -37px;
-}
-
-.menu li{
-    display: inline-block;
-}
-
-.menu a{
-    padding: 45px;
-    color: rgba(22, 41, 216, 0.678);
-    text-decoration: none;
-    display: block;
-}
-
-.menu a:hover{
-    background-color: rgba(76, 155, 151, 0.39);
-    color: rgb(0, 0, 0);
-}
-
 .contorno{
     text-align: center; 
     font-family: Arial Black; 
@@ -117,4 +95,31 @@ footer{
     margin-top: -10px;
 }
 
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -37px;
+}
 
+.menu form li{
+    display: inline-block;
+    float: left;
+}
+
+.menu li{
+    display: block;
+    padding: 44px 46px;
+    color: rgba(22, 41, 216, 0.678);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: rgba(76, 155, 151, 0.39);
+    color: rgb(0, 0, 0);
+}

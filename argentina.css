@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://www.teahub.io/photos/full/347-3473305_bandera-francia-wallpaper-france-flag-background.jpg");
+    background-image:url("https://img.freepik.com/vector-gratis/fondo-vector-degradado-azul-claro-invierno_53876-126054.jpg?w=2000");
 }
 
 .menu{
@@ -72,6 +72,5 @@ img:hover{
 
 .titulo{
     text-align: center;
-    color: aliceblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:;
 }
