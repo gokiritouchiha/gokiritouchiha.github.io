@@ -105,12 +105,12 @@ footer{
     margin-top: -37px;
 }
 
-.menu form li{
+.menu li{
     display: inline-block;
     float: left;
 }
 
-.menu li{
+.menu li a{
     display: block;
     padding: 44px 46px;
     color: rgba(22, 41, 216, 0.678);
