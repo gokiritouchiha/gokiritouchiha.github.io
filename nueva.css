@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(70, 146, 142, 0.815);
+    background-image: url("https://img2.rtve.es/imagenes/paraisos-cercanos-nueva-zelanda-tierra-del-fin-del-mundo/1564479934839.jpg");
 }
 
 .menu{
@@ -72,4 +72,6 @@ img:hover{
 
 .titulo{
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
 }

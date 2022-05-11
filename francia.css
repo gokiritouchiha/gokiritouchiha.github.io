@@ -1,5 +1,6 @@
 body{
-    background-image: url("https://www.teahub.io/photos/full/347-3473305_bandera-francia-wallpaper-france-flag-background.jpg");
+    background-image: url("https://fondosmil.com/fondo/71139.jpg");
+    background-size: 100%;
 }
 
 .menu{
@@ -73,5 +74,5 @@ img:hover{
 .titulo{
     text-align: center;
     color: aliceblue;
-    font-family:;
+    font-family:'Times New Roman', Times, serif;
 }
