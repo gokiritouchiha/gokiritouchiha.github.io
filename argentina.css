@@ -1,6 +1,7 @@
 body{
     background-image:url("https://wallpaperaccess.com/full/94472.jpg");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .menu{

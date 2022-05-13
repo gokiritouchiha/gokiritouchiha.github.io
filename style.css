@@ -6,7 +6,17 @@
     width: 750px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     letter-spacing: 2px;
-    font-weight: bold;
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+
 }
 
 body{
@@ -19,6 +29,7 @@ body{
     height: 750px;
     margin: auto;
     margin-top: 10px;
+    background-attachment: fixed;
 }
 
 .contorno{
@@ -56,8 +67,18 @@ main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     margin-top: 30px;
-    color: rgb(115, 177, 100); 
-    font-weight: bold;
+    color: rgb(36, 82, 25);
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+
 }
 
 
@@ -86,7 +107,7 @@ main{
     margin-top: 10px;
     padding: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(44, 76, 119); 
+    color: rgba(236, 239, 240, 0.815); 
 }
 
 footer{

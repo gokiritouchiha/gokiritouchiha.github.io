@@ -1,6 +1,7 @@
 body{
     background-image: url("https://fondosmil.com/fondo/71139.jpg");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .menu{

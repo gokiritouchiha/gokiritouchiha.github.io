@@ -1,12 +1,14 @@
 body{
     background-image: url("https://fondosmil.com/fondo/71788.jpg");
-    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .menu{
     width: 500px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 ul{
@@ -43,11 +45,11 @@ ul{
     position: relative;
 }
 
-.general h1{
+/*.general h1{
     text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 .area{
     display: flex;
@@ -58,12 +60,12 @@ ul{
 }
 
 .imagenes{
-    padding: 10px; 
+    padding: 30px; 
     
 }
 
 .imagenes3{
-    padding: 10px;
+    padding: 30px;
 }
 
 img:hover{
@@ -75,4 +77,53 @@ img:hover{
     text-align: center;
     color: aliceblue;
     font-family:'Times New Roman', Times, serif;
+}
+
+/*barra centrales*/
+
+.body1 > *{
+    box-shadow:-1px 1px 7px 0px rgba(172, 66, 66, 0.692);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.body1{
+    /*propocionar una cuadricula de una sola columna */
+    display: grid;
+    /* separacion de los elementos*/
+    gap: 10px;
+    /*defenir las area para mismo diseño*/
+    grid-template-areas: 
+    "nav"
+    "section"
+    "aside"
+    ;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: rgba(255, 127, 80, 0.445);
+}
+
+.section{
+    grid-area: section;
+    background-color: rgba(189, 183, 107, 0.397);
+}
+
+.aside{
+    grid-area: aside;
+    background-color: rgba(192, 61, 29, 0.507);
+}
+
+@media(min-width:900px){
+    .body1{
+        grid-template-columns: 400px 350px 400px;
+        grid-template-rows: 50px 50px 50px;
+        align-items: center;
+        justify-content: center;
+        grid-template-areas:
+        "nav section aside"
+        ;
+    }
 }
