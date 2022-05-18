@@ -12,6 +12,11 @@ body{
     justify-content: center;
 }
 
+nav li a h5{
+    color: rgba(255, 255, 255, 0.822);
+}
+
+
 ul{
     list-style: none;
 }
