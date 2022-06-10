@@ -342,5 +342,3 @@ function muestraresultado5(){
 
     document.getElementById("salida5").innerHTML=resultado5
 }
-
-
