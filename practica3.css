@@ -275,6 +275,7 @@
     text-align: center;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 45%;
 }
 
 .histo{
@@ -338,6 +339,7 @@
     text-align: center;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
 }
 
 .bio{
@@ -401,6 +403,7 @@
     text-align: center;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 49%;
 }
 
 .pie{
